@@ -1,9 +1,11 @@
+@import url('./template.css');
+
 *{
     font-family: 'B612', sans-serif;
 }
 .formulario-registro{
     margin: 5% 5%;
-    <--! background-color: aqua; -->
+
     width: 90%;
     height: 650px;
     display: grid;
