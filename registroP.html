@@ -5,13 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/navbar.css">
-    <link rel="stylesheet" href="./formularioRegistro.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./navbar.css">
-    <link rel="stylesheet" href="./adminInvestigador.css">
-    <title>Dashboard</title>
+    <title>Registro de patentes</title>
 </head>
 <body>
     <div class="mainContainer">
@@ -71,48 +65,71 @@
         </div><!-- navContainer1 -->
 
 
+<!-- Aqui va lo principal -->
 
-        <div class="formulario-registro">
-        
-            <form action="/">
-            <div class="formulario">
-                <div class="formulario-registro-datos">
-                    <div class="d-grid gap-2">
-                        
-                      <!-- <button  type="button" name="registrarpatente" id="registrarpatente" class="btn btn-primary">Registrar patente</button> -->
-                   <div class="registrop">
-                      <a class="registrop" href="registroP.html">Registrar patente</a>
-                    </div>
-                    </div>
-                </div>
-                <div class="formulario-registro-datos">
-                   <div class="d-grid gap-2">
-                     <button type="button" name="consultarinfodemiregistro" id="consultarinfodemiregistro" class="btn btn-primary">Consultar información de mi registro</button>
-                   </div>
-                </div>
-                <div class="formulario-registro-datos">
-                   <div class="d-grid gap-2">
-                     <button type="button" name="modificardatos" id="modificardatos" class="btn btn-primary">Modificar datos</button>
-                   </div>
-                </div>
-                <div class="formulario-registro-datos">
-                   <div class="d-grid gap-2">
-                     <button type="button" name="noticias" id="noticias" class="btn btn-primary">Noticias</button>
-                   </div>
-                </div>
-            </div>
-            <div class="opciones">
-                <h1>Carrusel de imagenes aquí</h1>
-            </div>
-            </form>
+
+
+<div class="formulario-registro">
+    <form action="/">
+    <div class="formulario">
+        <div class="formulario-registro-datos">
+            <br>
+            <label for="nombre">Escribe tu nombre: </label><br><br>
+            <input type="text" id="nommbre" placeholder="Escribe aquí tu nombre" required>
+            <br><br>
+            <label for="entidad">Instituto o Empresa: </label><br><br>
+            <input type="text" id="nommbre" placeholder="Escribe aquí tu entidad" required>
+            <br><br>
+            <label for="tiporegistro">Tipo de registro: </label><br><br>
+            <select name="tiporegistro" id="tiporegistro">
+                <option value="Marcas">Marcas</option>
+                <option value="Patentes">Patentes</option>
+                <option value="Obras">Obras</option>
+                <option value="Reservas de derechos">Reservas de derechos</option>
+            </select>
+            <br><br>
+            <label for="archivo1">Por favor sube tu e.firma</label>
+            <br><br>
+            <input type="file" name="archivosubido" value="e.firma">
+            <br><br>
         </div>
+        <div class="formulario-registro-datos">
+            <br>
+            <label for="contacto">Numero de contacto:</label><br><br>
+            <input type="number" id="contacto" placeholder="Escribe aquí tu numero de contacto" required>
+            <br><br>
+            <label for="entidad">Correo Electrónico:</label><br><br>
+            <input type="text" id="nommbre" placeholder="Escribe aquí Correo Electrónico" required>
+            <br><br>
+            <label for="tiporegistro">Región:</label><br><br>
+            <select name="tiporegistro" id="tiporegistro">
+                <option value="Baja California">Baja California</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+            </select>
+            <br><br>
+            <label for="archivo1">Por favor sube tu archivo número 2</label>
+            <br><br>
+            <input type="file" name="archivosubido" value="e.firma">
+            <br><br>
+        </div>
+    </div>
+    <div class="opciones">
+        <input type="submit" value="Enviar registro">
+    </div>
+    </form>
 
 
 
-        
+      
 
 
-       
+
+
+
+
+
+
 
 
 
