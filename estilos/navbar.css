@@ -1,4 +1,5 @@
 @import url('../estilos/formularioRegistro.css');
+@import url("registroCuenta.css");
 .cabecera{
     display: flex;
     height: 65px;
@@ -27,5 +28,5 @@
     align-items: center;
     height: 100%;
     width: 55%;
-    <--! background-color: aqua; -->
+ background-color: aqua; 
 }
