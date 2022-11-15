@@ -114,31 +114,31 @@
     <fieldset class="contenedorFieldset">
         <legend class="legendf">Completa los campos</legend>
 
-        <form>
+        <form id="formulario">
             <div class="contenedorRegistro">
                 <div class=" camporegistro1">
                     <label> Nombre:</label>
-                    <input class="camporegistroin" type="text">
+                    <input class="camporegistroin" id="nombre" type="text">
                 </div>
 
                 <div class=" camporegistro2">
                     <label>Apellido Paterno:</label>
-                    <input class="camporegistroin" type="text">
+                    <input class="camporegistroin" id="apellidop" type="text">
                 </div>
 
                 <div class=" camporegistro3">
                     <label>Apellido Materno:</label>
-                    <input class="camporegistroin" type="text">
+                    <input class="camporegistroin" id="apellidom" type="text">
                 </div>
 
                 <div class=" camporegistro4">
                     <label>Teléfono:</label>
-                    <input class="camporegistroin" type="tel">
+                    <input class="camporegistroin" id="telefono" type="tel">
                 </div>
 
                 <div class="camporegistro5">
                     <label>Correo:</label>
-                    <input class="camporegistroin" type="email">
+                    <input class="camporegistroin" id="correo" type="email">
                 </div>
 
                 <div class="camporegistro6">
@@ -156,12 +156,12 @@
 
                 <div class="camporegistro8">
                     <label>Numero de control:</label>
-                    <input type="text" class="camporegistroin">
+                    <input type="text" class="camporegistroin" id="nocontrol">
 
                 </div>
                 <div class="camporegistro9">
                     <label>Instituto tecnologico</label>
-                    <select name="" id="">
+                    <select name="" id="tecnologico">
                         <option value="instituto tecnologico de iztapalapa" >Instituto Tecnologico de Iztapalapa</option>
                         <option value="instituto tecnologico de gustavo madero">Instituto Tecnologico de Gustavo Madero</option>
                         <option value="instituto tecnologico de ecatepec" >Instituto Tecnologico de Ecatepec</option>
@@ -175,7 +175,7 @@
         </form>
 
     </fieldset>
-    <br><br><br>
+    <br><br><br><br><br><br><br>
 
 
 
@@ -298,6 +298,8 @@
     <div class="fG5">
         <br>
     </div>
+
+    <script src="js/validacionCuenta.js"></script>
 </body>
 
 </html>
