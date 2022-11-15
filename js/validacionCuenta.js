@@ -48,7 +48,10 @@ e.preventDefault();
         return;
     } else {
 
-        mostrarEnviar("Datos Enviados Correctamente")
+        mostrarEnviar("Datos Enviados Correctamente");
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
 
     }
 
@@ -89,8 +92,8 @@ function mostrarEnviar(mensaje){
     enviar.classList.add("enviar");
     formulario.appendChild(enviar);
     setTimeout(() => {
-        error.remove();
-    }, 5000);s
+        enviar.remove();
+    }, 5000);
 
 
 
