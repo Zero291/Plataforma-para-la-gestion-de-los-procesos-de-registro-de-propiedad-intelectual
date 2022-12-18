@@ -1,0 +1,181 @@
+
+body{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mainContainer{
+   
+    
+}
+
+.navGob{
+    background: #343a40; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2em;
+
+
+}
+
+.navGob a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #fff;
+}
+
+.navGob ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0.5em;
+}
+
+.navGob li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.navContainer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    cursor: pointer;
+}
+.navContainer1a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    cursor: pointer;
+}
+.navContainer1a img{
+    padding: 0 1em;
+    cursor: pointer;
+}
+.navContainer1a a{
+    text-decoration: none;
+    padding: 0 0.3em;
+    font-size: x-large;
+    cursor: pointer;
+}
+.navTec{
+    width: 100%;
+    height: 100%;
+}
+.navContainer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    color: #1b396a;
+    font-weight: 600;
+    
+}
+.navContainer2 a{
+    text-decoration: none;
+    color: #1b396a;
+}
+.navContainer2 ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    list-style: disclosure-open;
+    margin: 0 2em;
+}
+.navContainer2 li{
+    margin: 2em;
+    align-items: center;
+    cursor: pointer;
+}
+.navContainer3{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b396a;
+    color: #fff;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.navContainer3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navContainer3 ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    font-size: larger;
+    cursor: pointer;
+    list-style: disclosure-open;
+} 
+.navContainer3 a{
+    display: flex;
+    justify-content:center;
+    
+}
+.footTecn{
+    background-color: #1b396a;
+    display: flex;
+    padding: 1em;
+}
+
+.footTecn p{
+    padding: 1em 0;
+    margin: 1em;
+    color: #fff;
+    font-size: x-large;
+}
+.copyR{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b396a;
+    border-top: 1px solid gray;
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+}
+.footGob{
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+    font-size: x-large;
+    padding: 1em 0 2em 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/fondofooter.jpg');
+}
+
+.footGob li{
+    list-style: none;
+}
+.footGob a{
+    color: #fff;   
+}
+.footGob div{
+    text-align: left;
+    padding: 0 0.5em;
+}
+.footGob h5{
+    font-size: x-large;
+}
+.fG4 img{
+    margin: 0 0.3em;
+    height: 50px;
+}
+
+.fG4 ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.fG5{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: #0b231e;
+}
